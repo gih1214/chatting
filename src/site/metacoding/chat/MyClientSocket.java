@@ -18,7 +18,7 @@ public class MyClientSocket {
 
     public MyClientSocket() {
         try {
-            socket = new Socket("localhost", 1077);
+            socket = new Socket("localhost", 2000);
             writer = new BufferedWriter(
                     new OutputStreamWriter(socket.getOutputStream()));
 
